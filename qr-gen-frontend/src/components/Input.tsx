@@ -19,7 +19,7 @@ const Input = () => {
 
     //https://ee9fl4e948.execute-api.eu-north-1.amazonaws.com/qr?url=https://openai.com
     try {
-      const response = await axios.get(`https://ee9fl4e948.execute-api.eu-north-1.amazonaws.com/qr`, {
+      const response = await axios.get(`https://k4fkrh8ndi.execute-api.eu-north-1.amazonaws.com/qr`, {
         params: { url: url },
         responseType: 'blob'
       })
